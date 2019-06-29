@@ -1,1 +1,57 @@
 @import './reset.scss';
+@import './variables.scss';
+@import './animations.scss';
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app {
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.container-page {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.title {
+  font-family: $fontTitle;
+  text-transform: uppercase;
+}
+
+.brand {
+  font-family: $fontBrand;
+  letter-spacing: -2px;
+  font-weight: 500;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.orange {
+  background-color: $orange;
+}
+
+.pink {
+  background-color: $pink;
+}
+
+.red {
+  background-color: $red;
+}
+
+.blue {
+  background-color: $blue;
+}
+
+.green {
+  background-color: $green;
+}

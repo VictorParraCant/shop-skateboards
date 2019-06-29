@@ -1,0 +1,123 @@
+/* Backgorund IN */
+@keyframes go-top {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes go-bottom {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes go-left {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes go-right {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+/* Backgorund OUT */
+@keyframes exit-top {
+  0% {
+    transform: translateY(0%);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes exit-bottom {
+  0% {
+    transform: translateY(0%);
+  }
+
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes exit-left {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes exit-right {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Product box */
+@keyframes go-product-top {
+  0% {
+    transform: translateY(150%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes exit-product-top {
+  0% {
+    transform: translateY(-10%);
+  }
+
+  100% {
+    transform: translateY(-150%);
+  }
+}
+
+/* text info */
+@keyframes go-text-top {
+  0% {
+    transform: translateY(130%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes exit-text-top {
+  0% {
+    transform: translateY(0%);
+  }
+
+  100% {
+    transform: translateY(-150%);
+  }
+}

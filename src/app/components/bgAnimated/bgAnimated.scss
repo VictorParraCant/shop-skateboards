@@ -1,0 +1,63 @@
+@import '../../../assets/variables.scss';
+
+.product-view-background-animation {
+  min-height: 100vh;
+  min-width: 50vw;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 70% 30%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  .top {
+    z-index: 1;
+  }
+
+  .background-animation-bottom {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    overflow: hidden;
+
+    .right {
+      z-index: 2;
+      overflow: hidden;
+    }
+
+    .left {
+      z-index: 3;
+      overflow: hidden;
+    }
+  }
+}
+
+.enter, .enter-active {
+  .top {
+    animation: go-bottom 400ms;
+  }
+
+  .right {
+    animation: go-right 1s;
+  }
+
+  .left {
+    animation: go-top 1200ms;
+  }
+}
+
+.exit, .exit-active {
+  .top {
+    animation: exit-bottom 400ms;
+    z-index: 0;
+  }
+
+  .right {
+    animation: exit-left 1s;
+  }
+
+  .left {
+    animation: exit-top 1200ms;
+  }
+}
