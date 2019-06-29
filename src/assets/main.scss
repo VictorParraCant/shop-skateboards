@@ -1,5 +1,6 @@
 @import './reset.scss';
 @import './variables.scss';
+@import './function.scss';
 @import './animations.scss';
 
 .loader {
@@ -54,4 +55,39 @@
 
 .green {
   background-color: $green;
+}
+
+@include responsive(ipad) {
+  html,
+  body {
+    font-size: $font-ipad;
+  }
+}
+
+@include responsive(ipad-vertical) {
+  html,
+  body {
+    font-size: $font-ipad;
+  }
+}
+
+@include responsive(max-tablets) {
+  html,
+  body {
+    font-size: $font-low-resolution;
+  }
+}
+
+@include responsive(max-phones) {
+  html,
+  body {
+    font-size: $font-mobiles;
+  }
+}
+
+@include responsive(phones) {
+  html,
+  body {
+    font-size: $font-mobiles;
+  }
 }

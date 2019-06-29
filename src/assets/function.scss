@@ -1,0 +1,54 @@
+@import './variables.scss';
+
+@mixin responsive($media) {
+  @if $media==max {
+    @media (min-width: $max) {
+      /* +1440px */
+      @content;
+    }
+  } @else if $media==extra {
+    @media (max-width: $extra) {
+      /* 1200px */
+      @content;
+    }
+  } @else if $media==ipad {
+    @media (max-width: $ipad) {
+      /* 1024px */
+      @content;
+    }
+  } @else if $media==wrapper {
+    @media (max-width: $wrapper) {
+      /* 960px */
+      @content;
+    }
+  } @else if $media==ipad-vertical {
+    @media (max-width: $ipad-vertical) {
+      /* 768px */
+      @content;
+    }
+  } @else if $media==max-tablets {
+    @media (max-width: $max-tablets) {
+      /* 720px */
+      @content;
+    }
+  } @else if $media==min-tablets {
+    @media (max-width: $min-tablets) {
+      /* 640px */
+      @content;
+    }
+  } @else if $media==max-phones {
+    @media (max-width: $max-phones) {
+      /* 480px */
+      @content;
+    }
+  } @else if $media==phones {
+    @media (max-width: $phones) {
+      /* 320px */
+      @content;
+    }
+  } @else {
+    @media (#{$media}) {
+      @content;
+    }
+  }
+}
