@@ -4,7 +4,16 @@
         "type": "SKATEBOARD",
         "name": "J&R OCTO SKATEBOARD",
         "thumbnail": "pink",
+        "backgrounds": {
+          "top": "orange",
+          "right": "blue",
+          "left": "green"
+        },
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+        "properties":{
+          "size":"7.75",
+          "concave":"steep"
+        },
         "price": 56.00
       },
       {
@@ -12,7 +21,16 @@
         "type": "SKATEBOARD",
         "name": "SURE SKATEBOARD",
         "thumbnail": "red",
+        "backgrounds": {
+          "top": "pink",
+          "right": "red",
+          "left": "blue"
+        },
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "properties":{
+          "size":"7.75",
+          "concave":"steep"
+        },
         "price": 56.00
       },
       {
@@ -20,7 +38,16 @@
         "type": "SKATEBOARD",
         "name": "RETRO SUNSET SKATEBOARD",
         "thumbnail": "blue",
+        "backgrounds": {
+          "top": "green",
+          "right": "blue",
+          "left": "pink"
+        },
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "properties":{
+          "size":"7.75",
+          "concave":"steep"
+        },
         "price": 56.00
       }
 ]

@@ -1,0 +1,114 @@
+@import '../../../assets/variables.scss';
+
+.info-box {
+  display: grid;
+  grid-template-columns: repeat(18, 5.55%);
+  grid-template-rows: repeat(9, auto);
+  justify-self: center;
+  padding: 2rem;
+  position: absolute;
+  top: 8rem;
+
+  .box {
+    padding:  0.625rem;
+    border: 1px solid $blue;
+    color: $blue;
+    text-align: center;
+    font-family: $fontBrand;
+    text-transform: uppercase;
+    font-size: $font-p;
+    font-weight: 700;
+    overflow: hidden;
+    z-index: 1;
+
+    &.rm-top {
+      border-top: none;
+    }
+
+    &.rm-bottom {
+      border-bottom: none;
+    }
+
+    &.rm-left {
+      border-left: none;
+    }
+  }
+
+  .info-box-type {
+    grid-column-start: 9;
+    grid-column-end: 14;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    padding: 0.5rem;
+  }
+
+  .info-box-name {
+    grid-column-start: 3;
+    grid-column-end: 15;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 2.8rem;
+    line-height: 3rem;
+    padding: 0.7rem;
+  }
+
+  .info-box-description {
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 4;
+    grid-row-end: 9;
+    font-size: $font-p;
+    font-weight: 500;
+  }
+
+  .info-box-property {
+    grid-row-start: 4;
+    grid-row-end: 7;
+    font-size: $font-p;
+    font-weight: 500;
+
+    .property-label {
+      font-weight: 700;
+    }
+
+    &.property-one {
+      grid-column-start: 10;
+      grid-column-end: 13;
+    }
+
+    &.property-two {
+      grid-column-start: 13;
+      grid-column-end: 16;
+    }
+
+    &.property-three {
+      grid-column-start: 16;
+      grid-column-end: 19;
+    }
+  }
+
+  .info-box-data-quantity {
+    grid-column-start: 10;
+    grid-column-end: 12;
+    grid-row-start: 7;
+    grid-row-end: 8;
+  }
+
+}
+
+.enter, .enter-active {
+  .info-text {
+    animation: go-text-top 800ms;
+  }
+}
+
+.exit, .exit-active {
+  .info-text {
+    animation: exit-text-top 1s;
+  }
+
+  .box {
+    z-index: 0;
+    border: 1px solid $pink;
+  }
+}
