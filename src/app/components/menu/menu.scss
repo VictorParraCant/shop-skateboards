@@ -1,0 +1,56 @@
+@import '../../../assets/variables.scss';
+
+.menu {
+  flex: 0.4;
+  color: $white;
+  border: 1px solid $white;
+  font-family: $fontBrand;
+
+  .menu-links {
+    display: flex;
+    flex-flow: row nowrap;
+
+    li {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      min-width: 4.625rem;
+      padding: 0.5rem;
+      font-size: $font-menu;
+      font-weight: 700;
+      border-right: 1px solid $white;
+
+      i {
+        font-size: $font-menu;
+        margin-right: 0.5rem;
+      }
+    }
+
+    li:last-child {
+      border: none;
+    }
+
+    .link {
+      cursor: pointer;
+      transition: background-color 300ms cubic-bezier(0, 0.73, 1, 1) 0ms,color 300ms ease;
+
+      &:hover {
+        background-color: $white;
+        color: $black;
+      }
+    }
+
+    .browser {
+      font-size: $font-menu;
+      font-weight: 700;
+      width: auto;
+      min-width: 4.625rem;
+
+      &::placeholder {
+        color: $white;
+      }
+
+    }
+
+  }
+}
