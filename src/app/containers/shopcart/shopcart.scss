@@ -1,0 +1,74 @@
+@import '../../../assets/variables.scss';
+
+.shopcart {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  display: inline-flex;
+  align-items: center;
+  border-top: 1px solid $blue;
+
+  .price {
+    flex: 0.6;
+    padding:  1.25rem 2.5rem;
+    font-family: $fontBrand;
+    color: $blue;
+    line-height: 1.5rem;
+    display: inline-flex;
+    align-items: center;
+
+    .price-number {
+      font-size: $font-subtitle;
+    }
+
+    span {
+      font-size: $font-button;
+      vertical-align: top;
+      padding-right: 0.125rem;
+    }
+  }
+
+  .add-shopcart {
+    flex: 0.4;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  1.25rem 2rem;
+
+    .input-shopcart {
+      width: 2.5rem;
+      height: 2.5rem;
+      border: 1px solid $blue;
+      margin-right: 0.625rem;
+      display: inline-block;
+      text-align:center;
+
+      input {
+        color: $blue;
+        font-size: $font-button;
+        width: inherit;
+        height: inherit;
+        text-align: center;
+        padding-left: 0.625rem;
+
+        &::placeholder {
+          color: $blue;
+        }
+      }
+
+    }
+
+    .button-add {
+      width: 100%;
+      padding:  0.625rem  1.25rem;
+      background-color: $blue;
+      border: 2px solid $blue;
+      color: $white;
+      font-weight: 700;
+      text-align: center;
+      font-family: $fontBrand;
+      font-size: $font-button;
+    }
+  }
+}
