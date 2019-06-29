@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shop-skateboards/static/css/main.f1a47e06.chunk.css",
+    "main.js": "/shop-skateboards/static/js/main.b345a4a7.chunk.js",
+    "main.js.map": "/shop-skateboards/static/js/main.b345a4a7.chunk.js.map",
+    "runtime~main.js": "/shop-skateboards/static/js/runtime~main.f16c60b6.js",
+    "runtime~main.js.map": "/shop-skateboards/static/js/runtime~main.f16c60b6.js.map",
+    "static/js/2.dc9f490c.chunk.js": "/shop-skateboards/static/js/2.dc9f490c.chunk.js",
+    "static/js/2.dc9f490c.chunk.js.map": "/shop-skateboards/static/js/2.dc9f490c.chunk.js.map",
+    "index.html": "/shop-skateboards/index.html",
+    "precache-manifest.3d5b6254825d17eee51d2305701016ae.js": "/shop-skateboards/precache-manifest.3d5b6254825d17eee51d2305701016ae.js",
+    "service-worker.js": "/shop-skateboards/service-worker.js",
+    "static/css/main.f1a47e06.chunk.css.map": "/shop-skateboards/static/css/main.f1a47e06.chunk.css.map"
+  }
+}
