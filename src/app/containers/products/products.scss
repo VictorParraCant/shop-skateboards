@@ -1,0 +1,8 @@
+@import '../../../assets/variables.scss';
+
+.product-data {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 15% 65% 20%;
+  background-color: $pink;
+}
