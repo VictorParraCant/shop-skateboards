@@ -18,6 +18,7 @@ const Shopcart = ({ price, quantity, handlerChange, handlerClick, animated }) =>
       />
     </div>
     <div className='add-shopcart'>
+    
       <div className='input-shopcart'>
         <input
           name='quantity'
@@ -31,6 +32,10 @@ const Shopcart = ({ price, quantity, handlerChange, handlerClick, animated }) =>
       <div type='button' className='button button-add' onClick={animated ? null : handlerClick}>
         <span>ADD TO CART</span>
       </div>
+      
+      <div type='button' className='button' onClick={animated ? null : handlerClick}><span>{'< BACK'}</span></div>
+      <div type='button' className='button' onClick={animated ? null : handlerClick}><span>{'NEXT >'}</span></div>
+      
     </div>
   </div>
 );
