@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "type": "SKATEBOARD",
+        "name": "J&R OCTO SKATEBOARD",
+        "thumbnail": "pink",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+        "price": 56.00
+      },
+      {
+        "id": "2",
+        "type": "SKATEBOARD",
+        "name": "SURE SKATEBOARD",
+        "thumbnail": "red",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "price": 56.00
+      },
+      {
+        "id": "3",
+        "type": "SKATEBOARD",
+        "name": "RETRO SUNSET SKATEBOARD",
+        "thumbnail": "blue",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "price": 56.00
+      }
+]
