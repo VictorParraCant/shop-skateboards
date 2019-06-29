@@ -8,7 +8,7 @@ const Skateboard = ({ name, thumbnail }) =>(
   <div className='skate-container'>
     <div className={classcat(['skate-box', thumbnail])}>
       <div className='sticker-box'>
-        <p className='brand'>bennett</p>
+        <p className='brand'>Skateboard</p>
         <h1 className='title product-name'>{name}</h1>
       </div>
     </div>

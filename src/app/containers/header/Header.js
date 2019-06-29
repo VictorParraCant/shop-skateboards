@@ -10,7 +10,7 @@ class Header extends Component {
         <header className='header'>
           <Menu />
           <Link to='/' className='logo'>
-            <span className='brand'>bennett</span>
+            <span className='brand'>Skateboard</span>
           </Link>
           <div className='shop-cart'>
             <span><i className='fas fa-shopping-bag'></i></span>
